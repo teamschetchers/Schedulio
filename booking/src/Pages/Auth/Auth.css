@@ -1,0 +1,9 @@
+.active {
+  border-bottom: 2px solid #38c2e0;
+}
+
+.googlelogin {
+  background-color: "#38C2E0" !important;
+  width: "70%";
+  height: "40px";
+}

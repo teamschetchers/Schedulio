@@ -1,0 +1,61 @@
+.admin-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dedfe0;
+}
+.logout {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.main {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+  background-color: #dedfe0;
+}
+
+.tab {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab.active {
+  background-color: rgb(118, 118, 137);
+}
+
+.content {
+  flex: 1;
+  height: 100%;
+  padding: 10px;
+  background-color: #fff;
+}
